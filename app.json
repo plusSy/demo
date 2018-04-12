@@ -15,32 +15,32 @@
   "tabBar":{
     "color":"#000",
     "selectedColor": "#333333",
-    "backgroundColor": "#999999",
+    "backgroundColor": "#ffffff",
     "borderStyle": "black",
     "list":[
       {
         "pagePath": "pages/index/index",
         "text": "首页",
-        "iconPath": "images/home.png",
-        "selectedIconPath": "images/selectHome.png"
+        "iconPath": "assets/images/home.png",
+        "selectedIconPath": "assets/images/selectHome.png"
       },
       {
         "pagePath": "pages/person/index",
         "text": "个人信息",
-        "iconPath": "images/user.png",
-        "selectedIconPath": "images/selectUser.png"
+        "iconPath": "assets/images/user.png",
+        "selectedIconPath": "assets/images/selectUser.png"
       },
       {
         "pagePath": "pages/teachers/index",
         "text": "教师信息",
-        "iconPath": "images/teacher.png",
-        "selectedIconPath": "images/selectTeacher.png"
+        "iconPath": "assets/images/teacher.png",
+        "selectedIconPath": "assets/images/selectTeacher.png"
       },
       {
         "pagePath": "pages/courses/index",
         "text":	"课程信息",
-        "iconPath": "images/resource.png",
-        "selectedIconPath": "images/selectResource.png"
+        "iconPath": "assets/images/resource.png",
+        "selectedIconPath": "assets/images/selectResource.png"
       }
     ]
   }
