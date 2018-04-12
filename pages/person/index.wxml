@@ -1,0 +1,9 @@
+<view>
+  个人信息
+  <view>
+    <view wx:for="{{userInfo}}" wx:for-item="item" wx:key="index">
+      {{ item.name }}
+      <hr/>  
+    </view>
+  </view>
+</view>

@@ -1,0 +1,39 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/person/index",
+    "pages/teachers/index",
+	"pages/courses/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "color":"#000",
+    "selectedColor": "#333333",
+    "backgroundColor": "#999999",
+    "borderStyle": "black",
+    "list":[
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/person/index",
+        "text": "个人信息"
+      },
+	{
+		"pagePath": "pages/teachers/index",
+		"text": "教师信息"
+	},
+	{
+		"pagePath": "pages/courses/index",
+		"text":	"课程信息"
+	}
+    ]
+  }
+}

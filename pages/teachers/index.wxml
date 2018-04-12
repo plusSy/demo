@@ -1,0 +1,6 @@
+<view>
+	<view wx:for="{{teachers}}" wx:for-item="item" wx:key="index">
+		{{ item.name }}
+		<hr/>
+	</view>
+</view>
