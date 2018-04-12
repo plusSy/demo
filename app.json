@@ -20,20 +20,28 @@
     "list":[
       {
         "pagePath": "pages/index/index",
-        "text": "首页"
+        "text": "首页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/selectHome.png"
       },
       {
         "pagePath": "pages/person/index",
-        "text": "个人信息"
+        "text": "个人信息",
+        "iconPath": "images/user.png",
+        "selectedIconPath": "images/selectUser.png"
       },
-	{
-		"pagePath": "pages/teachers/index",
-		"text": "教师信息"
-	},
-	{
-		"pagePath": "pages/courses/index",
-		"text":	"课程信息"
-	}
+      {
+        "pagePath": "pages/teachers/index",
+        "text": "教师信息",
+        "iconPath": "images/teacher.png",
+        "selectedIconPath": "images/selectTeacher.png"
+      },
+      {
+        "pagePath": "pages/courses/index",
+        "text":	"课程信息",
+        "iconPath": "images/resource.png",
+        "selectedIconPath": "images/selectResource.png"
+      }
     ]
   }
 }
